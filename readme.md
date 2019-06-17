@@ -1,8 +1,4 @@
-# My Loading
+# Simple Web Application
 
-- Use 3 different colors, which is called Taegeuk
-- Taegeuk is a traditional Korean symbol
-
-- [x] HTML
-- [x] CSS3
-- [ ] Javascript 
+- My Loading
+- Sign In (Green)
