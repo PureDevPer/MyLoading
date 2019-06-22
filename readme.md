@@ -3,3 +3,4 @@
 - My Loading
 - Sign In (Green)
 - Profile Card
+- Slideshow with navigation buttons
