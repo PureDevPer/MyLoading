@@ -4,3 +4,4 @@
 - Sign In (Green)
 - Profile Card
 - Slideshow with navigation buttons
+- Gallery Of Images
