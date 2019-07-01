@@ -5,3 +5,4 @@
 - Profile Card
 - Slideshow with navigation buttons
 - Gallery Of Images
+- Social Media Buttons
