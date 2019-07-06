@@ -6,3 +6,4 @@
 - Slideshow with navigation buttons
 - Gallery Of Images
 - Social Media Buttons
+- Responsive Menu Navigation
