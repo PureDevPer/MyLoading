@@ -7,3 +7,4 @@
 - Gallery Of Images
 - Social Media Buttons
 - Responsive Menu Navigation
+- Full Landing Page
