@@ -8,3 +8,4 @@
 - Social Media Buttons
 - Responsive Menu Navigation
 - Full Landing Page
+- Responsive About Us
