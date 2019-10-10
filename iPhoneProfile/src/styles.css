@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: #f8f7fe;
+}
+
+.container {
+	background-color: white;
+	padding: 20px;
+	width: 350px;
+	height: 700px;
+	border-radius: 40px;
+	box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+		30px 30px 40px rgba(118, 146, 180, 0.18);
+}
+
+.screen {
+	padding: 10px 20px;
+	background-image: linear-gradient(
+			rgba(255, 255, 255, 0.6),
+			rgba(255, 255, 255, 0.6)
+		),
+		url('https://images.unsplash.com/photo-1555603078-35bcc62b326a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	position: relative;
+}
+
+.header .header__statusBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 13px;
+}
+
+.header .header__profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 13px;
+	margin-top: 25px;
+	opacity: 0.4;
+}
+
+.fa-arrow-left,
+.fa-bars {
+	font-size: 16px;
+}
+
+.main .main__profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main__profile .main__profile-img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-top: 135px;
+}
+
+.main__profile .main__profile-name {
+	color: #289afb;
+	margin-bottom: 5px;
+}
+
+.main__profile .main__profile-location {
+	font-size: 13px;
+	opacity: 0.5;
+	font-weight: 600;
+}
+
+.main .main__buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 35px 0px;
+}
+
+.main__buttons .main__buttons__follow,
+.main__buttons .main__buttons__message {
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+}
+
+.main__buttons__follow .main__buttons__follow-text {
+	background-color: white;
+	padding: 10px 30px;
+	font-size: 14px;
+	border-radius: 10px;
+	font-weight: 600;
+	color: #95a5a6;
+}
+
+.main__buttons__message .main__buttons__message-text {
+	background-color: #289afa;
+	padding: 10px 30px;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.main .main__information {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 13px;
+	padding: 0px 10px;
+	opacity: 0.3;
+	font-weight: 600;
+}
+
+.main__information .main__information__column {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.nav {
+	position: absolute;
+	width: 90%;
+	bottom: 10px;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.nav .nav-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	opacity: 0.6;
+}
+
+.nav-item .icons {
+	cursor: pointer;
+}
+
+.fa-user {
+	color: #289afa;
+}
