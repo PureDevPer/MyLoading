@@ -17,3 +17,4 @@
 - Carousel
 - Drop Down Menu
 - Responsive Animated Login Form
+- Modal using Vanilla JS
